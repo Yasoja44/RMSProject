@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/lk/nnj/rms/fx/view/PlaceOrderForm.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Restaurant Management System");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
