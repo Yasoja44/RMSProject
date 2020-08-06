@@ -11,8 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="548.0" prefWidth="772.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.nnj.rms.fx.view.controller.ManageItemController">
+<AnchorPane prefHeight="548.0" prefWidth="853.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.nnj.rms.fx.view.controller.ManageItemController">
    <children>
       <AnchorPane prefHeight="71.0" prefWidth="644.0" style="-fx-background-color: #ced1d6;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -21,41 +20,72 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <ImageView fitHeight="35.0" fitWidth="34.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="35.0" fitWidth="32.0" layoutX="13.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../assest/icons8-back-arrow-64.png" />
                </image>
             </ImageView>
+            <JFXButton alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="507.0" layoutY="15.0" prefHeight="35.0" prefWidth="97.0" style="-fx-background-color: #ffffff;" text="Add    " AnchorPane.rightAnchor="221.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="512.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="288.0">
+               <image>
+                  <Image url="@../assest/icons8-plus-64.png" />
+               </image>
+            </ImageView>
+            <JFXButton alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="612.0" layoutY="15.0" prefHeight="35.0" prefWidth="97.0" style="-fx-background-color: #ffffff;" text="Update    " AnchorPane.rightAnchor="116.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="617.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="183.0">
+               <image>
+                  <Image url="@../assest/icons8-synchronize-64.png" />
+               </image>
+            </ImageView>
+            <JFXButton alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="715.0" layoutY="15.0" prefHeight="35.0" prefWidth="97.0" style="-fx-background-color: #ffffff;" text="Delete    " AnchorPane.rightAnchor="13.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="720.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="80.0">
+               <image>
+                  <Image url="@../assest/icons8-minus-64.png" />
+               </image>
+            </ImageView>
+            <JFXTextField layoutX="299.0" layoutY="19.0" prefHeight="25.0" prefWidth="126.0" />
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="432.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-search-48.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="245.0" layoutY="25.0" text="Item ID">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
-      <JFXTextField layoutX="30.0" layoutY="100.0" prefHeight="25.0" prefWidth="141.0" />
-      <Label layoutX="30.0" layoutY="80.0" text="Item Name">
+      <JFXTextField layoutX="17.0" layoutY="100.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="18.0" layoutY="80.0" text="Item Name">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <JFXTextField layoutX="205.0" layoutY="100.0" prefHeight="25.0" prefWidth="192.0" />
-      <Label layoutX="205.0" layoutY="80.0" text="Description">
+      <JFXTextField layoutX="246.0" layoutY="100.0" prefHeight="25.0" prefWidth="453.0" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="126.0" />
+      <Label layoutX="246.0" layoutY="78.0" text="Description" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="508.0">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <JFXTextField layoutX="424.0" layoutY="100.0" prefHeight="25.0" prefWidth="69.0" />
-      <Label layoutX="424.0" layoutY="80.0" text="Unit price">
+      <JFXTextField layoutX="721.0" layoutY="100.0" prefHeight="25.0" prefWidth="90.0" AnchorPane.rightAnchor="14.0" />
+      <Label layoutX="721.0" layoutY="78.0" text="Unit price" AnchorPane.rightAnchor="44.0">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <JFXButton alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="525.0" layoutY="93.0" prefHeight="35.0" prefWidth="103.0" style="-fx-background-color: #ffffff;" text="Add    ">
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </JFXButton>
-      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="530.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../assest/icons8-plus-128.png" />
-         </image>
-      </ImageView>
       <TableView layoutX="15.0" layoutY="174.0" prefHeight="383.0" prefWidth="746.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="149.0">
         <columns>
           <TableColumn prefWidth="75.0" text="Item ID" />

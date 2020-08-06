@@ -191,7 +191,7 @@
             <Cursor fx:constant="HAND" />
          </cursor></JFXButton>
       <JFXTextField layoutX="129.0" layoutY="83.0" prefHeight="25.0" prefWidth="277.0" promptText="Search for the Item" AnchorPane.leftAnchor="129.0" AnchorPane.rightAnchor="783.0" />
-      <TextField layoutX="458.0" layoutY="86.0" prefHeight="25.0" prefWidth="36.0" AnchorPane.rightAnchor="695.0" />
+      <TextField layoutX="458.0" layoutY="86.0" prefHeight="25.0" prefWidth="36.0" text="1" AnchorPane.rightAnchor="695.0" />
       <JFXButton alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="560.0" layoutY="85.0" prefHeight="27.0" prefWidth="98.0" style="-fx-background-color: #ffffff;" text="Add    " AnchorPane.rightAnchor="531.0">
          <cursor>
             <Cursor fx:constant="HAND" />
@@ -222,7 +222,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></JFXButton>
-      <TextField layoutX="1071.0" layoutY="318.0" prefHeight="25.0" prefWidth="36.0" AnchorPane.rightAnchor="82.0" />
+      <TextField layoutX="1071.0" layoutY="318.0" prefHeight="25.0" prefWidth="36.0" text="1" AnchorPane.rightAnchor="82.0" />
       <Label layoutX="912.0" layoutY="456.0" text="Sub Total  :" AnchorPane.rightAnchor="188.0">
          <font>
             <Font size="18.0" />
