@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="690.0" prefWidth="1089.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.nnj.mdss.fx.style.controller.AdminPanelController">
+   <children>
+      <Pane prefHeight="670.0" prefWidth="210.0" style="-fx-background-color: #606369;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="52.0" layoutY="11.0" text="Dashboard" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btn_place" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="77.0" onAction="#place" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Order Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="btn_order" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="177.0" onAction="#order" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Category Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back" fitHeight="36.0" fitWidth="27.0" layoutX="16.0" layoutY="15.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-back-arrow-64.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <JFXButton fx:id="btn_deliver" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="277.0" onAction="#dpartners" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Financial Management " textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="btn_cus" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="327.0" onAction="#customer" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Inventory Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back1" fitHeight="36.0" fitWidth="27.0" layoutX="21.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+             
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+               <image>
+                  <Image url="@../assest/icons8-purchase-order-96.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lbl_back11" fitHeight="36.0" fitWidth="27.0" layoutX="22.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-new-property-96.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="lbl_back111" fitHeight="36.0" fitWidth="27.0" layoutX="22.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-us-dollar-96.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="lbl_back1111" fitHeight="36.0" fitWidth="27.0" layoutX="22.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-open-box-96.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <JFXButton fx:id="btn_about" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="631.0" onAction="#about" prefHeight="35.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="About" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_aboutimg" fitHeight="25.0" fitWidth="20.0" layoutX="28.0" layoutY="639.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-info-64.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <JFXButton fx:id="btn_item" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="227.0" onAction="#items" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Item Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back12" fitHeight="36.0" fitWidth="27.0" layoutX="21.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+               <image>
+                  <Image url="@../assest/icons8-pizza-96.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="btn_track" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="127.0" onAction="#track" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Deliver Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back13" fitHeight="36.0" fitWidth="27.0" layoutX="21.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+               <image>
+                  <Image url="@../assest/deliver.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="btn_cus1" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="377.0" onAction="#customer" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Customer Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back11112" fitHeight="36.0" fitWidth="27.0" layoutX="22.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-admin-settings-male-48.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <JFXButton fx:id="btn_cus2" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="427.0" onAction="#customer" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Employee Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back11113" fitHeight="36.0" fitWidth="27.0" layoutX="22.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-customer-96.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <JFXButton fx:id="btn_cus3" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="477.0" onAction="#customer" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Property Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back11114" fitHeight="36.0" fitWidth="27.0" layoutX="21.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-home-128.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <JFXButton fx:id="btn_cus4" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="526.0" onAction="#customer" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Event Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back11115" fitHeight="36.0" fitWidth="27.0" layoutX="22.0" layoutY="535.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-event-96.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+            <JFXButton fx:id="btn_cus41" alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="12.0" layoutY="576.0" onAction="#customer" prefHeight="44.0" prefWidth="184.0" style="-fx-background-color: #dadce0;" text="Play Area Management" textAlignment="RIGHT">
+               <effect>
+                  <Glow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fx:id="lbl_back111151" fitHeight="36.0" fitWidth="27.0" layoutX="22.0" layoutY="585.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/icons8-game-controller-96.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
